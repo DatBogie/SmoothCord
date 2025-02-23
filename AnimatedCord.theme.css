@@ -1,0 +1,18 @@
+/**
+ * @name SmoothCord
+ * @author Dat Bogie
+ * @version 0.0.0
+ * @description A *very* simple Discord theme aimed at smoothing out most animations.
+ * @source https://github.com/DatBogie/SmoothCord
+ * @website https://datbogie.github.io/
+ */
+
+*:not(.wrapper_cc5dd2):not(:has(> *)) {
+    border-radius: 10px !important;
+}
+
+*:not(.vc-imgzoom-lens):not(.vc-imgzoom-image):not(video:not(.vc-imgzoom-image video)) {
+    transition-property: all;
+    transition-duration: .13s;
+    transition-timing-function: ease-out;
+}
